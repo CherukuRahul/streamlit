@@ -17,7 +17,7 @@ st.divider()
 st.code(code,language = "java")
 st.divider()
 st.text("This is about today class let me tell you about greedy approach")
-data  = pd.read_csv(r"c:\Users\C ARAVIND\Downloads\contacts_to_import.csv")
+data  = pd.read_csv(r"contacts_to_import.csv")
 st.data_editor(data,hide_index = True, column_config={
         "widgets": st.column_config.Column(
             "Streamlit Widgets",

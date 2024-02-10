@@ -19,7 +19,7 @@ st.area_chart(
 st.code(code, language = 'python', line_numbers = True)
 st.text("This the sample dataset just taken for better understanding")
 st.divider()
-file_path = r"C:\Users\C ARAVIND\Downloads\India_Updated Literacy 2021.csv"
+file_path = "India_Updated Literacy 2021.csv"
 data = pd.read_csv(file_path)
 st.dataframe(data)
 st.divider()

@@ -23,4 +23,7 @@ file_path = "India_Updated Literacy 2021.csv"
 data = pd.read_csv(file_path)
 st.dataframe(data)
 st.divider()
+st.area_chart(data, x = "States/UTs", y = "Children age 5 years who attended pre-primary school ", color = "Area")
+st.line_chart(data, x = "States/UTs", y = "Children age 5 years who attended pre-primary school ", color = "Area")
+st.bar_chart(data, x = "States/UTs", y = "Children age 5 years who attended pre-primary school ", color = "Area")
 st.scatter_chart(data, x = "States/UTs", y = "Children age 5 years who attended pre-primary school ", color = "Area")
